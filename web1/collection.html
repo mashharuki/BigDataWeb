@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Semi Data Analysis</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--unknow>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+</script>
+<!--unknow>
+
+<!--script toTOP-->
+<script type="text/javascript">
+ 	$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+	   $().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<!--script toTOP-->	
+
+
+	
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="logo">
+	<a href="index.html"><img src="images/logo.png" class="img-responsive"  alt="" /></a>
+	</div>
+	<div class="head-nav">
+		<div class="container">
+			<span class="menu">Menu</span>
+			<ul class="cl-effect-7">
+			<li><a href="index.html">Home</br><font size="2px">首頁</font></a></li>
+			<li class="active"><a href="collection.html">Data Collection</br><font size="2px">資料取得</font></a></li>
+			<li><a href="preparation.html">Data Preparation</br><font size="2px">數據準備</font></a></li>
+			<li><a href="analysis.html">Data Analysis</br><font size="2px">資料分析</font></a></li>
+			<li><a href="prediction.html">Prediction</br><font size="2px">數據預測</font></a></li>
+			<div class="clearfix"></div>
+			</ul>
+		</div>
+	</div>
+	<!-- script-for-nav -->
+	<script>
+		$( "span.menu" ).click(function() {
+			$( ".head-nav ul" ).slideToggle(300, function() {
+			// Animation complete.
+			});
+		});
+	</script>
+	<!-- script-for-nav -->
+</div>
+<!-- header -->
+
+<!-- CSV-->
+		<div class="er-4">
+		<div class="container">
+			<div class="error-404 text-center">
+				<h1>Data Set Information</h1>
+				<p>SECOM Dataset: &nbsp;1567 examples &nbsp;&nbsp;,&nbsp; 591 features&nbsp;&nbsp;,&nbsp;&nbsp; 104 fails</p>
+				
+		      <img src="data-2.jpg" width="941" height="518" alt=""/> </br><h1>Attribute Information:</h1></br>
+			<p style="line-height: 2em">Key facts: Data Structure:</br> The data consists of 2 files the dataset file SECOM consisting of 1567 examples each with 591 features a 1567 x 591 matrix and a labels file containing the classifications and date time stamp for each example. As with any real life data situations this data contains null values varying in intensity depending on the individuals features. This needs to be taken into consideration when investigating the data either through pre-processing or within the technique applied. </br>The data is represented in a raw text file each line representing an individual example and the features seperated by spaces. The null values are represented by the 'NaN' value as per MatLab.</p>
+			
+			<img class="mySlides" src="all2.jpg" width="100%" >
+			<img class="mySlides" src="all2.jpg" width="100%" >
+			<img class="mySlides" src="all2.jpg" width="100%" >
+			<img class="mySlides" src="all2.jpg" width="100%" >
+		 	<button class="w3-button error-404-left" onclick="plusDivs(-1)" style="background: #9F9F9F">&#10094;</button>
+			<button class="w3-button error-404-right" onclick="plusDivs(+1)"style="background: #9F9F9F">&#10095;</button>
+<p></p><p></p><p></p><p></p><p></p><img src="資料取得.png" width="906" height="1111" alt=""/>	
+        	</div>
+		</div>
+		
+	</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+<!-- CSV -->
+
+
+<!-- to top -->
+<a href="#" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 0;"></span>
+		<span id="toTopHover" style="opacity: 0;"></span></a>
+<!-- to top -->
+<!-- footer -->
+<div class="footer">
+ 	<div class="container">
+		<p>這裡可以放文字：</p>
+	</div>
+</div>
+<!-- footer -->
+</body>
+</html>

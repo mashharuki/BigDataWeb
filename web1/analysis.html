@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Semi Data Analysis</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--unknow>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+</script>
+<!--unknow>
+
+<!--script toTOP-->
+<script type="text/javascript">
+ 	$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+	   $().UItoTop({ easingType: 'easeOutQuart' });
+	});
+</script>
+<!--script toTOP-->	
+
+	
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="logo">
+	<a href="index.html"><img src="images/logo.png" class="img-responsive"  alt="" /></a>
+	</div>
+	<div class="head-nav">
+		<div class="container">
+			<span class="menu">Menu</span>
+			<ul class="cl-effect-7">
+			<li><a href="index.html">Home</br><font size="2px">首頁</font></a></li>
+			<li><a href="collection.html">Data Collection</br><font size="2px">資料取得</font></a></li>
+			<li><a href="preparation.html">Data Preparation</br><font size="2px">數據準備</font></a></li>
+			<li class="active"><a href="analysis.html">Data Analysis</br><font size="2px">資料分析</font></a></li>
+			<li><a href="prediction.html">Prediction</br><font size="2px">數據預測</font></a></li>
+			<div class="clearfix"></div>
+			</ul>
+		</div>
+	</div>
+	<!-- script-for-nav -->
+	<script>
+		$( "span.menu" ).click(function() {
+			$( ".head-nav ul" ).slideToggle(300, function() {
+			// Animation complete.
+			});
+		});
+	</script>
+	<!-- script-for-nav -->
+</div>
+<!-- header -->
+
+<!-- 404 -->
+	<div class="er-4">
+		<div class="container">
+			<div class="error-404 text-center">
+			<div class="error-404 text-center">
+		    <img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Gain (1).png" width="530" height="605" alt=""/><img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Gain.png" width="530" height="605" alt=""/><img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Lift (1).png" width="530" height="605" alt=""/><img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Lift.png" width="530" height="605" alt=""/><img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Pr (1).png" width="530" height="605" alt=""/> <img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Pr.png" width="530" height="605" alt=""/><img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Roc (1).png" width="530" height="605" alt=""/><img src="images/BigML_Evaluation_59f1a1ed49c4a1032c000107_Roc.png" width="530" height="605" alt=""/></div>
+			</div>
+		</div>
+	</div>
+<!-- 404 -->
+<!-- to top -->
+<a href="#" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 0;"></span>
+		<span id="toTopHover" style="opacity: 0;"></span></a>
+<!-- to top -->
+<!-- footer -->
+<div class="footer">
+ 	<div class="container">
+		<p>這裡可以放文字：</p>
+	</div>
+</div>
+<!-- footer -->
+</body>
+</html>

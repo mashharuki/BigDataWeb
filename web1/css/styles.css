@@ -1,0 +1,48 @@
+/*
+header, footer, section, {
+display: block;
+}
+
+
+body {
+line-height: 1;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #666;
+font-size: 12px;
+line-height: 16px;
+}
+*/
+	
+
+
+
+.maincsv {
+margin: 0 auto;
+background: #FFF;
+}
+
+#wrapper {
+width: 80%;
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 10px
+background: #fff;
+}
+
+.wrapper h1,h2,h3,h4,h5,h6 {
+display: block;
+font-variant: small-caps;
+line-height: 1.5em;
+padding: 10px 0;
+font-weight: bold;
+color: #000;
+}
+
+
+#singlecol {
+width: 850px;
+margin-left: 40px;
+margin-top: 20px;
+border-bottom: 1px solid #ddd;
+}
+
